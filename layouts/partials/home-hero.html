@@ -1,0 +1,42 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $homeData := index hugo.Data.home $lang }}
+{{ $verses := $homeData.verses }}
+{{ $verseCount := len $verses }}
+{{ $selected := dict "text" "" "reference" "" }}
+{{ if gt $verseCount 0 }}
+  {{ $seed := now.Format "2006-01-02" }}
+  {{ $hash := md5 $seed }}
+  {{ $slice := slicestr $hash 0 8 }}
+  {{ $index := mod (int (printf "0x%s" $slice)) $verseCount }}
+  {{ $selected = index $verses $index }}
+{{ end }}
+
+<section class="home-hero-grid">
+  <figure class="home-hero-banner wp-block-image aligncenter size-full is-resized">
+    <img src="/uploads/2026/02/church_banner_shengdaotang.webp"
+         alt="蒙特利尔 华人基督教会 圣道堂 聚会"
+         class="wp-image-307"/>
+  </figure>
+
+  <aside class="verse-card">
+    <p class="verse-card__eyebrow">
+      {{ if eq $lang "zh" }}今日经句{{ else }}Verse of the Day{{ end }}
+    </p>
+    <blockquote class="verse-card__quote">
+      {{ with $selected.text }}{{ . }}{{ end }}
+    </blockquote>
+    <p class="verse-card__ref">{{ with $selected.reference }}{{ . }}{{ end }}</p>
+    <p class="verse-card__body">
+      {{ if eq $lang "zh" }}
+      愿神的话语成为今天的安慰与力量，欢迎你继续浏览教会信息，或加入我们的主日聚会。
+      {{ else }}
+      May God's word be your comfort and strength today. We invite you to explore our church life and join us for Sunday worship.
+      {{ end }}
+    </p>
+    <div class="verse-card__actions">
+      <a class="church-btn" href="{{ if eq $lang "zh" }}/bible/{{ else }}/en/bible/{{ end }}">
+        {{ if eq $lang "zh" }}每日读经{{ else }}Daily Devotional{{ end }}
+      </a>
+    </div>
+  </aside>
+</section>

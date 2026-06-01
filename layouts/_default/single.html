@@ -10,6 +10,9 @@
     <div class="page-content">
       {{ .RawContent | safeHTML }}
     </div>
+    {{ if eq .Params.translationKey "bible" }}
+      {{ partial "daily-reader.html" . }}
+    {{ end }}
   </article>
 </main>
 {{ end }}

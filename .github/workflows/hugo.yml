@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: "15 5 * * *"
   workflow_dispatch:
 
 permissions:
@@ -36,6 +38,9 @@ jobs:
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
+
+      - name: Fetch Alpha Bible in One Year
+        run: node scripts/fetch-alpha-bioy.mjs
 
       - name: Build
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}"

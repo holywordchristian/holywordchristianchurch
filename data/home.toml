@@ -7,6 +7,30 @@ body = "每周日下午 2:00 开始，欢迎弟兄姊妹和新朋友一同参加
 title = "实体主日学"
 body = "每周日下午 4:00–5:00 举行，一同在神的话语里学习成长。"
 
+[[zh.verses]]
+text = "你要专心仰赖耶和华，不可倚靠自己的聪明。"
+reference = "箴言 3:5"
+
+[[zh.verses]]
+text = "你们要先求他的国和他的义，这些东西都要加给你们了。"
+reference = "马太福音 6:33"
+
+[[zh.verses]]
+text = "凡劳苦担重担的人，可以到我这里来，我就使你们得安息。"
+reference = "马太福音 11:28"
+
+[[zh.verses]]
+text = "耶和华是我的牧者，我必不致缺乏。"
+reference = "诗篇 23:1"
+
+[[zh.verses]]
+text = "你当刚强壮胆，不要惧怕，也不要惊惶，因为你无论往哪里去，耶和华你的神必与你同在。"
+reference = "约书亚记 1:9"
+
+[[zh.verses]]
+text = "我们爱，因为神先爱我们。"
+reference = "约翰一书 4:19"
+
 [en]
 [[en.announcements]]
 title = "Sunday Worship"
@@ -15,3 +39,27 @@ body = "Our Mandarin Sunday worship begins every Sunday at 2:00 PM. Visitors and
 [[en.announcements]]
 title = "In-Person Sunday School"
 body = "Sunday School meets every Sunday from 4:00–5:00 PM as we grow together in God's word."
+
+[[en.verses]]
+text = "Trust in the Lord with all your heart and lean not on your own understanding."
+reference = "Proverbs 3:5"
+
+[[en.verses]]
+text = "But seek first his kingdom and his righteousness, and all these things will be given to you as well."
+reference = "Matthew 6:33"
+
+[[en.verses]]
+text = "Come to me, all you who are weary and burdened, and I will give you rest."
+reference = "Matthew 11:28"
+
+[[en.verses]]
+text = "The Lord is my shepherd, I lack nothing."
+reference = "Psalm 23:1"
+
+[[en.verses]]
+text = "Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go."
+reference = "Joshua 1:9"
+
+[[en.verses]]
+text = "We love because he first loved us."
+reference = "1 John 4:19"

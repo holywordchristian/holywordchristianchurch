@@ -1,0 +1,46 @@
+{{ $isZh := eq .Lang "zh" }}
+{{ $data := index hugo.Data "alpha-bioy" }}
+{{ $entry := cond $isZh $data.zh $data.en }}
+{{ $meetingUrl := cond $isZh "/meeting/" "/en/meeting/" }}
+
+<section class="daily-reader-shell">
+  <article class="alpha-reader">
+    <header class="alpha-reader__header">
+      <p class="section-kicker">{{ if $isZh }}ALPHA BIBLE IN ONE YEAR · 每日读经{{ else }}ALPHA BIBLE IN ONE YEAR · TODAY'S READING{{ end }}</p>
+      <h2>{{ if $isZh }}圣经日日行{{ else }}Bible in One Year{{ end }}</h2>
+      <p class="alpha-reader__meta">Day {{ $data.dayOfYear }} · {{ $entry.dateLabel }}</p>
+      {{ if $entry.dayTitle }}
+        <h3 class="alpha-reader__title">{{ $entry.dayTitle }}</h3>
+      {{ end }}
+    </header>
+
+    {{ if $entry.audioUrl }}
+      <div class="alpha-reader__audio">
+        <audio controls src="{{ $entry.audioUrl }}"></audio>
+      </div>
+    {{ end }}
+
+    <div class="alpha-reader__body">
+      {{ $entry.bodyHtml | safeHTML }}
+    </div>
+
+    <div class="alpha-reader__footer">
+      <a class="resource-link" href="{{ $entry.sourceUrl }}" target="_blank" rel="noreferrer">
+        {{ if $isZh }}阅读 Alpha 官方原文{{ else }}Open the official Alpha reading{{ end }}
+      </a>
+    </div>
+  </article>
+
+  <section class="resource-grid resource-grid--bible">
+    <article class="resource-card">
+      <h3>{{ if $isZh }}Alpha 官方计划{{ else }}Official Alpha Plan{{ end }}</h3>
+      <p>{{ if $isZh }}如果你想阅读完整原文、回看往日内容，或在不同设备上继续阅读，可以直接打开 Alpha Bible in One Year 官方页面。{{ else }}To view the full reading, revisit past days, or continue on another device, open the official Alpha Bible in One Year page.{{ end }}</p>
+      <a class="resource-link" href="{{ $entry.sourceUrl }}" target="_blank" rel="noreferrer">{{ if $isZh }}打开官方页面{{ else }}Open Alpha{{ end }}</a>
+    </article>
+    <article class="resource-card">
+      <h3>{{ if $isZh }}结合教会生活{{ else }}Read in Community{{ end }}</h3>
+      <p>{{ if $isZh }}每日读经最适合和教会生活一起实践。欢迎你继续参加主日崇拜、祷告会与团契，在神的话语中一同成长。{{ else }}Daily reading grows best in the life of the church. Join us for worship, prayer, and fellowship as we grow together in God's Word.{{ end }}</p>
+      <a class="resource-link" href="{{ $meetingUrl }}">{{ if $isZh }}查看聚会时间{{ else }}View meeting times{{ end }}</a>
+    </article>
+  </section>
+</section>

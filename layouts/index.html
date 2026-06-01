@@ -1,7 +1,8 @@
 {{ define "main" }}
-<main class="page-shell">
-  <article class="content-frame home-frame">
+<main class="page-shell home-shell">
+  <article class="content-frame home-frame home-frame--wide">
     <div class="page-content">
+      {{ partial "home-hero.html" . }}
       {{ .RawContent | safeHTML }}
     </div>
   </article>
