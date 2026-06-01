@@ -1,6 +1,6 @@
 # Holy Word Hugo Migration
 
-This folder contains a Hugo-ready migration scaffold for `holyword.cc`.
+This folder contains a Hugo-ready migration scaffold for the church website.
 
 ## What is included
 
@@ -15,7 +15,7 @@ This folder contains a Hugo-ready migration scaffold for `holyword.cc`.
 Run from this folder:
 
 ```bash
-node scripts/import-wordpress.mjs /Users/glad/Downloads/brossard.WordPress.2026-06-01.xml /Users/glad/Downloads/uploads.zip
+node scripts/import-wordpress.mjs /path/to/wordpress-export.xml /path/to/uploads.zip
 ```
 
 ## Remaining work
