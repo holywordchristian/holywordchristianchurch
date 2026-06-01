@@ -1,0 +1,13 @@
+{{- $lang := .Site.Language.Lang -}}
+{{- $entries := index hugo.Data.home $lang "announcements" -}}
+{{- range $entries }}
+<div class="{{ if eq $lang "en" }}hp-notice-item{{ else }}church-notice-item{{ end }}">
+  <div class="{{ if eq $lang "en" }}hp-notice-dot{{ else }}church-notice-row{{ end }}">
+    <div class="{{ if eq $lang "en" }}hp-notice-dot-icon{{ else }}church-notice-dot{{ end }}"></div>
+    <div>
+      <div class="{{ if eq $lang "en" }}hp-notice-title{{ else }}church-notice-title{{ end }}">{{ .title }}</div>
+      <div class="{{ if eq $lang "en" }}hp-notice-desc{{ else }}church-notice-desc{{ end }}">{{ .body }}</div>
+    </div>
+  </div>
+</div>
+{{- end }}

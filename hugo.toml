@@ -1,0 +1,94 @@
+baseURL = "https://holyword.cc/"
+title = "蒙特利尔国语基督教会 | 圣道堂 | Brossard"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "圣道堂 Holy Word Christian Church 位于魁北克蒙特利尔地区，是一间华人基督教会，致力于尽心尽意爱主爱人，同心竭力建造教会。欢迎参加我们的主日聚会。"
+  logo = "/uploads/2026/02/logo_header.png"
+  address = "321 Rue Empire, Greenfield Park, QC J4V 1V4"
+  worship_time = "主日崇拜：每周日下午 2:00"
+  worship_time_en = "Sunday Worship: Every Sunday at 2:00 PM"
+  x_url = "https://x.com/HolyWordCC"
+  form_action = "https://formspree.io/f/your-form-id"
+
+[languages]
+  [languages.zh]
+    label = "中文"
+    locale = "zh-CN"
+    weight = 1
+    contentDir = "content/zh"
+    title = "蒙特利尔国语基督教会 | 圣道堂 | Brossard"
+    [languages.zh.params]
+      description = "圣道堂 Holy Word Christian Church 位于魁北克蒙特利尔地区，是一间华人基督教会，致力于尽心尽意爱主爱人，同心竭力建造教会。欢迎参加我们的主日聚会。"
+    [[languages.zh.menu.main]]
+      name = "首页"
+      pageRef = "/"
+      weight = 10
+    [[languages.zh.menu.main]]
+      name = "教会介绍"
+      pageRef = "/intro"
+      weight = 20
+    [[languages.zh.menu.main]]
+      name = "教会资讯"
+      pageRef = "/church-info"
+      weight = 30
+    [[languages.zh.menu.main]]
+      name = "主日聚会"
+      pageRef = "/meeting"
+      weight = 40
+    [[languages.zh.menu.main]]
+      name = "奉献方式"
+      pageRef = "/donation"
+      weight = 50
+    [[languages.zh.menu.main]]
+      name = "联系我们"
+      pageRef = "/contact"
+      weight = 60
+    [[languages.zh.menu.main]]
+      name = "每日读经"
+      pageRef = "/bible"
+      weight = 70
+
+  [languages.en]
+    label = "English"
+    locale = "en-US"
+    weight = 2
+    contentDir = "content/en"
+    title = "Holy Word Christian Church | Brossard"
+    [languages.en.params]
+      description = "Holy Word Christian Church is a Mandarin-speaking Christian church serving the Greater Montreal area. Join us for Sunday worship, fellowship, and Bible learning."
+    [[languages.en.menu.main]]
+      name = "Home"
+      pageRef = "/"
+      weight = 10
+    [[languages.en.menu.main]]
+      name = "Overview"
+      pageRef = "/intro"
+      weight = 20
+    [[languages.en.menu.main]]
+      name = "Church Info"
+      pageRef = "/church-info"
+      weight = 30
+    [[languages.en.menu.main]]
+      name = "Sunday Worship"
+      pageRef = "/meeting"
+      weight = 40
+    [[languages.en.menu.main]]
+      name = "Giving"
+      pageRef = "/donation"
+      weight = 50
+    [[languages.en.menu.main]]
+      name = "Contact"
+      pageRef = "/contact"
+      weight = 60
+    [[languages.en.menu.main]]
+      name = "Daily Devotional"
+      pageRef = "/bible"
+      weight = 70

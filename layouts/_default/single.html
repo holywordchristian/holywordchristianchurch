@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main class="page-shell">
+  <article class="content-frame{{ if not .IsHome }} prose-frame{{ end }}">
+    {{ if and (not .IsHome) (ne .Params.hideTitle true) }}
+    <header class="page-header">
+      <p class="page-kicker">{{ .Site.Title }}</p>
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{ end }}
+    <div class="page-content">
+      {{ .RawContent | safeHTML }}
+    </div>
+  </article>
+</main>
+{{ end }}

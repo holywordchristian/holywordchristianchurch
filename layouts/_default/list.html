@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main class="page-shell">
+  <section class="content-frame prose-frame">
+    <header class="page-header">
+      <p class="page-kicker">{{ .Site.Title }}</p>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+      <article class="post-card">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="post-meta">{{ .Date.Format "2006-01-02" }}</p>
+        {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ end }}

@@ -1,0 +1,9 @@
+{{ define "main" }}
+<main class="page-shell">
+  <article class="content-frame home-frame">
+    <div class="page-content">
+      {{ .RawContent | safeHTML }}
+    </div>
+  </article>
+</main>
+{{ end }}

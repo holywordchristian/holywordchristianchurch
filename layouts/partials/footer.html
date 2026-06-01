@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <p>
+      <strong>{{ if eq .Site.Language.Lang "en" }}Holy Word Christian Church{{ else }}蒙特利尔国语基督教会-圣道堂{{ end }}</strong>
+      · {{ .Site.Params.address }}
+      · {{ if eq .Site.Language.Lang "en" }}{{ .Site.Params.worship_time_en }}{{ else }}{{ .Site.Params.worship_time }}{{ end }}
+    </p>
+    <p>© 2026 {{ if eq .Site.Language.Lang "en" }}Holy Word Christian Church{{ else }}蒙特利尔国语基督教会-圣道堂{{ end }}.</p>
+  </div>
+</footer>

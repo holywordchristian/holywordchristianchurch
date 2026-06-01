@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}">
+      <span class="brand__logo-frame">
+        <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}">
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      {{ range .Site.Menus.main }}
+      <a class="{{ if $.IsMenuCurrent "main" . }}is-active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+    <div class="lang-switch">
+      {{ if .IsTranslated }}
+        {{ range .AllTranslations }}
+        <a class="{{ if eq .Language.Lang $.Site.Language.Lang }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
+        {{ end }}
+      {{ else }}
+        <a class="{{ if eq .Site.Language.Lang "zh" }}is-active{{ end }}" href="/">中文</a>
+        <a class="{{ if eq .Site.Language.Lang "en" }}is-active{{ end }}" href="/en/">English</a>
+      {{ end }}
+    </div>
+  </div>
+</header>
