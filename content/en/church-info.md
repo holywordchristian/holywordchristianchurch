@@ -1,5 +1,5 @@
 +++
-title = "church info EN"
+title = "Church Info"
 date = "2026-05-11T20:11:22"
 translationKey = "church-info"
 aliases = ["/en/church-info/"]
