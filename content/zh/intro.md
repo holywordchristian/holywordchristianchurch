@@ -213,7 +213,7 @@ hideTitle = false
     </div>
 
     <div class="ch2-vision-text">
-      <p class="label">Faith Statement · 信仰宣言</p>
+      <p class="label">信仰宣言</p>
       <h2>我们的信仰宣言</h2>
 
       <p>我们相信整本圣经，包括旧约和新约，都是神所默示的，是神准确无误的话语，也是基督徒信仰、生活与事奉的最终权威。</p>
@@ -240,7 +240,7 @@ hideTitle = false
     </div>
 
     <div class="ch2-services-content">
-      <p class="label">Gatherings · 聚会</p>
+      <p class="label">教会聚会</p>
       <h2>我们的聚会</h2>
 
       <div class="services-grid">

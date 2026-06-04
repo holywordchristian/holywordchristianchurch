@@ -29,7 +29,7 @@ hideTitle = true
 
     <div class="church-card">
       <div class="church-card-icon">📖</div>
-      <h3>Faith Courses</h3>
+      <h3>Faith &amp; Discipleship</h3>
       <p>We offer inquirer classes and discipleship training to help you deepen your faith and grow in your relationship with God.</p>
       <div class="church-card-detail">
         → <a href="contact/">Contact Us</a>
@@ -41,7 +41,7 @@ hideTitle = true
       <h3>Fellowship &amp; Small Groups</h3>
       <p>Through various fellowships and home groups, we build one another up, live out our faith, and support each other in daily life.</p>
       <div class="church-card-detail">
-        → <a href="contact/">Join Us</a>
+        → <a href="contact/">Connect With Us</a>
       </div>
     </div>
 

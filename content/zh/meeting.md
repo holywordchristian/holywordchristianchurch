@@ -8,7 +8,7 @@ hideTitle = false
 
 <section class="meeting-wrap">
   <section class="meeting-intro">
-    <p class="section-kicker">WORSHIP &amp; FELLOWSHIP · 聚会安排</p>
+    <p class="section-kicker">主日敬拜 · 聚会安排</p>
     <h2>与我们一同敬拜、学习、祷告</h2>
     <p>无论你是第一次来访，还是已经在教会中同行，我们都欢迎你一起参加主日崇拜、主日学、祷告会和团契聚会。在真道、祷告与彼此相爱中一同成长。</p>
   </section>
@@ -33,7 +33,7 @@ hideTitle = false
 
   <section class="meeting-section">
     <div class="meeting-section__heading">
-      <p class="section-kicker">SCHEDULE · 时间表</p>
+      <p class="section-kicker">聚会时间 · 时间表</p>
       <h3>各项聚会时间</h3>
     </div>
     <div class="meeting-table-wrap">
@@ -102,7 +102,7 @@ hideTitle = false
 
   <section class="meeting-section">
     <div class="meeting-section__heading">
-      <p class="section-kicker">COMMUNITY · 聚会剪影</p>
+      <p class="section-kicker">教会生活 · 聚会剪影</p>
       <h3>在敬拜与团契中同行</h3>
     </div>
     <figure class="wp-block-gallery has-nested-images columns-default is-cropped meeting-gallery-original">

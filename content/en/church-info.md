@@ -110,7 +110,7 @@ hideTitle = false
 <div class="ch-wrap">
 
   <div class="ch-hero">
-    <img src="../../uploads/2026/02/church_banner_shengdaotang.webp" alt="聖道堂 Holy Word Church" />
+    <img src="../../uploads/2026/02/church_banner_shengdaotang.webp" alt="Holy Word Christian Church" />
     <div class="ch-hero-overlay">
       <h2>聖道堂 Holy Word Christian Church</h2>
       <p>Brossard · Founded 2026</p>

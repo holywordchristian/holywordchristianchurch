@@ -6,4 +6,4 @@ aliases = ["/checklist/"]
 hideTitle = false
 +++
 
-<div class="import-note">Checklist shortcode placeholder from WordPress.</div>
+<div class="import-note">本页内容正在整理中，若你需要相关资料，欢迎与教会联系。</div>

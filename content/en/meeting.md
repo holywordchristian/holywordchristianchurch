@@ -84,7 +84,7 @@ hideTitle = false
             <td>2026</td>
           </tr>
           <tr>
-            <td>Explore Christianity - New Life Class</td>
+            <td>New Life Seekers Class</td>
             <td>Thursday 8:00 PM</td>
             <td>Zoom 891 0689 8173</td>
             <td>2026</td>
@@ -102,7 +102,7 @@ hideTitle = false
 
   <section class="meeting-section">
     <div class="meeting-section__heading">
-      <p class="section-kicker">COMMUNITY · GALLERY</p>
+      <p class="section-kicker">CHURCH LIFE · GALLERY</p>
       <h3>Life together in worship and fellowship</h3>
     </div>
     <figure class="wp-block-gallery has-nested-images columns-default is-cropped meeting-gallery-original">

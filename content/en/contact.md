@@ -8,7 +8,7 @@ hideTitle = false
 
 <div class="contact-layout">
   <section class="contact-card">
-    <p class="contact-eyebrow">Visit & Connect</p>
+    <p class="contact-eyebrow">Get in Touch</p>
     <h2>We would love to hear from you</h2>
     <p>Whether you are visiting for the first time, looking for service details, or hoping to join a fellowship group, we would be glad to connect and help you feel at home.</p>
 
@@ -31,7 +31,7 @@ hideTitle = false
   </section>
 
   <section class="contact-card">
-    <p class="contact-eyebrow">Sunday Gathering</p>
+    <p class="contact-eyebrow">Worship & Church Life</p>
     <h2>Worship & Church Life</h2>
     <p>We welcome believers, friends, and seekers to join us for Sunday worship. You can also explore our overview, gathering schedule, and daily devotional resources to learn more about church life.</p>
 
@@ -39,7 +39,7 @@ hideTitle = false
       <article class="resource-card">
         <h3>Overview</h3>
         <p>Learn about our statement of faith and church life.</p>
-        <a class="resource-link" href="../intro/">Read More</a>
+        <a class="resource-link" href="../intro/">Learn More</a>
       </article>
       <article class="resource-card">
         <h3>Sunday Worship</h3>
@@ -56,7 +56,7 @@ hideTitle = false
 </div>
 
 <section class="resource-hero" style="margin-top:1.4rem;">
-  <p class="contact-eyebrow">Map</p>
+  <p class="contact-eyebrow">Location</p>
   <h2>Location & Directions</h2>
   <p>The church is located in Greenfield Park and is easy to reach. Use the map below to plan your route.</p>
   <iframe

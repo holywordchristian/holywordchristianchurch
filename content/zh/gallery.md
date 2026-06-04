@@ -106,4 +106,4 @@ hideTitle = false
   color: #1e3250;
 }
 </style>
-<div class="import-note">WordPress 的 Google Drive 相册嵌入暂未迁移到 Hugo。后面可以改成原生图片画廊，或保留一个外部 Google Drive 相册链接。</div>
+<div class="import-note">教会相册内容正在整理中，后续将陆续更新，欢迎日后再来浏览。</div>

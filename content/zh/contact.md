@@ -8,7 +8,7 @@ hideTitle = false
 
 <div class="contact-layout">
   <section class="contact-card">
-    <p class="contact-eyebrow">Visit & Connect</p>
+    <p class="contact-eyebrow">欢迎联系</p>
     <h2>欢迎与我们联系</h2>
     <p>无论你是第一次来访，想了解聚会安排、信仰课程，或希望加入团契与小组，我们都很乐意认识你，并帮助你更安心地参与教会生活。</p>
 
@@ -31,7 +31,7 @@ hideTitle = false
   </section>
 
   <section class="contact-card">
-    <p class="contact-eyebrow">Sunday Gathering</p>
+    <p class="contact-eyebrow">聚会与参与</p>
     <h2>聚会与参与</h2>
     <p>我们欢迎弟兄姊妹、新朋友和慕道朋友一同参加主日聚会。你也可以透过教会介绍、主日聚会与每日读经页面，先了解我们的信仰生活与聚会安排。</p>
 
@@ -56,7 +56,7 @@ hideTitle = false
 </div>
 
 <section class="resource-hero" style="margin-top:1.4rem;">
-  <p class="contact-eyebrow">Map</p>
+  <p class="contact-eyebrow">位置与路线</p>
   <h2>位置与路线</h2>
   <p>教会位于 Greenfield Park，交通方便。你可以直接使用下方地图规划路线。</p>
   <iframe
