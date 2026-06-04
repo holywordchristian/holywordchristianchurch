@@ -243,11 +243,11 @@ hideTitle = false
 
   <div class="ch2-vision">
     <div class="ch2-vision-img">
-      <img src="../../uploads/2026/02/ChatGPT-Image-Feb-15-2026-11_50_08-AM-1024x683.png" alt="Statement of Faith" />
+      <img src="../../uploads/2026/02/ChatGPT-Image-Feb-15-2026-11_50_08-AM-1024x683.png" alt="教会信仰" />
     </div>
 
     <div class="ch2-vision-text">
-      <p class="label">Statement of Faith</p>
+      <p class="label">Faith Statement · Statement of Faith</p>
 
       <h2>Our Statement of Faith</h2>
 
@@ -273,18 +273,18 @@ hideTitle = false
 
   <div class="ch2-services">
     <div class="ch2-services-img">
-      <img src="../../uploads/2026/02/47f5af58d35e31dc39ade4e5fe957b89-1024x768.jpg" alt="Church Gatherings" />
+      <img src="../../uploads/2026/02/47f5af58d35e31dc39ade4e5fe957b89-1024x768.jpg" alt="教会聚会" />
     </div>
 
     <div class="ch2-services-content">
-      <p class="label">Church Gatherings</p>
-      <h2>Our Gatherings</h2>
+      <p class="label">Gatherings · 聚会</p>
+      <h2>我们的聚会</h2>
 
       <div class="services-grid">
-        <div class="service-card"><span>Sunday Worship</span></div>
-        <div class="service-card"><span>Prayer Meeting</span></div>
-        <div class="service-card"><span>Sunday School</span></div>
-        <div class="service-card"><span>Evergreen Fellowship</span></div>
+        <div class="service-card"><span>worship</span></div>
+        <div class="service-card"><span>prayer meeting</span></div>
+        <div class="service-card"><span>sunday school</span></div>
+        <div class="service-card"><span>evergreen fellowship</span></div>
       </div>
     </div>
   </div>
