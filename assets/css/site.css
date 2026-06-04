@@ -10,7 +10,7 @@
   --accent: #7a3b2e;
   --shadow: 0 16px 42px rgba(31, 53, 81, 0.08);
   --max: 1140px;
-  --home-max: 1640px;
+  --home-max: 1500px;
 }
 
 * {
@@ -59,7 +59,7 @@ img {
 }
 
 .home-shell {
-  width: min(calc(100% - 0.35rem), var(--home-max));
+  width: min(calc(100% - 1.5rem), var(--home-max));
 }
 
 .site-header__inner {
@@ -446,7 +446,7 @@ img {
 .church-cards-section,
 .church-mid,
 .church-contact-section {
-  width: min(100%, 1480px);
+  width: min(100%, 1360px);
   margin: 0 auto;
 }
 
@@ -847,7 +847,7 @@ img {
 
 @media (max-width: 960px) {
   .home-shell {
-    width: min(calc(100% - 0.75rem), var(--home-max));
+    width: min(calc(100% - 1rem), var(--home-max));
   }
 
   .site-header__inner {
@@ -923,7 +923,7 @@ img {
   }
 
   .home-shell {
-    width: min(calc(100% - 0.5rem), var(--home-max));
+    width: min(calc(100% - 0.75rem), var(--home-max));
   }
 
   .site-footer__inner {
