@@ -1,4 +1,4 @@
-baseURL = "https://faintbear.github.io/"
+baseURL = "https://holywordchristian.github.io/holywordchristianchurch/"
 title = "蒙特利尔国语基督教会 | 圣道堂 | Brossard"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
@@ -11,7 +11,7 @@ enableRobotsTXT = true
 
 [params]
   description = "圣道堂 Holy Word Christian Church 位于魁北克蒙特利尔地区，是一间华人基督教会，致力于尽心尽意爱主爱人，同心竭力建造教会。欢迎参加我们的主日聚会。"
-  logo = "/uploads/2026/02/logo_header.png"
+  logo = "uploads/2026/02/logo_header.png"
   address = "321 Rue Empire, Greenfield Park, QC J4V 1V4"
   worship_time = "主日崇拜：每周日下午 2:00"
   worship_time_en = "Sunday Worship: Every Sunday at 2:00 PM"

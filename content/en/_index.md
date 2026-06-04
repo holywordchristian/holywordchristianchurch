@@ -7,7 +7,7 @@ hideTitle = true
 +++
 
 <figure class="wp-block-image aligncenter size-full is-resized">
-  <img src="/uploads/2026/02/church_banner_shengdaotang.webp"
+  <img src="../uploads/2026/02/church_banner_shengdaotang.webp"
        alt="Holy Word Christian Church Sunday Worship"
        class="wp-image-307"
        style="aspect-ratio:2.2161943787153;width:1132px;height:auto"/>
@@ -32,7 +32,7 @@ hideTitle = true
       <h3>Faith Courses</h3>
       <p>We offer inquirer classes and discipleship training to help you deepen your faith and grow in your relationship with God.</p>
       <div class="church-card-detail">
-        → <a href="/en/contact/">Contact Us</a>
+        → <a href="contact/">Contact Us</a>
       </div>
     </div>
 
@@ -41,7 +41,7 @@ hideTitle = true
       <h3>Fellowship &amp; Small Groups</h3>
       <p>Through various fellowships and home groups, we build one another up, live out our faith, and support each other in daily life.</p>
       <div class="church-card-detail">
-        → <a href="/en/contact/">Join Us</a>
+        → <a href="contact/">Join Us</a>
       </div>
     </div>
 
@@ -51,7 +51,7 @@ hideTitle = true
 <section class="church-mid">
   <div class="church-mid-inner">
     <div class="church-photo">
-      <img src="/uploads/2026/02/img-2391_orig-1024x683.jpg" alt="Holy Word Church building">
+      <img src="../uploads/2026/02/img-2391_orig-1024x683.jpg" alt="Holy Word Church building">
     </div>
     <div class="church-notice">
       <div class="church-notice-badge">📢 Announcements</div>
@@ -93,7 +93,7 @@ hideTitle = true
         Sunday Worship: Every Sunday at 2:00 PM
       </div>
       <p>Feel free to contact us for information about service times, faith courses, or how to get involved. We would love to hear from you.</p>
-      <a href="/en/contact/" class="church-btn">Contact Us →</a>
+      <a href="contact/" class="church-btn">Contact Us →</a>
     </div>
     <div class="church-map">
       <iframe

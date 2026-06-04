@@ -39,17 +39,17 @@ hideTitle = false
       <article class="resource-card">
         <h3>Overview</h3>
         <p>Learn about our statement of faith and church life.</p>
-        <a class="resource-link" href="/en/intro/">Read More</a>
+        <a class="resource-link" href="../intro/">Read More</a>
       </article>
       <article class="resource-card">
         <h3>Sunday Worship</h3>
         <p>See our worship, prayer, and Sunday School schedule.</p>
-        <a class="resource-link" href="/en/meeting/">View Schedule</a>
+        <a class="resource-link" href="../meeting/">View Schedule</a>
       </article>
       <article class="resource-card">
         <h3>Daily Devotional</h3>
         <p>Continue growing in God's word through daily resources.</p>
-        <a class="resource-link" href="/en/bible/">Start Reading</a>
+        <a class="resource-link" href="../bible/">Start Reading</a>
       </article>
     </div>
   </section>

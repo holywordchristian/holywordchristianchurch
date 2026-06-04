@@ -7,7 +7,7 @@ hideTitle = true
 +++
 
 <figure class="wp-block-image aligncenter size-full is-resized">
-  <img src="/uploads/2026/02/church_banner_shengdaotang.webp"
+  <img src="uploads/2026/02/church_banner_shengdaotang.webp"
        alt="蒙特利尔 华人基督教会 圣道堂 聚会"
        class="wp-image-307"
        style="aspect-ratio:2.2161943787153;width:1132px;height:auto"/>
@@ -44,7 +44,7 @@ hideTitle = true
         我们提供慕道班及门徒训练课程，帮助深入认识信仰，建立与神的关系。
       </p>
       <div class="church-card-detail">
-        → <a href="/contact/"
+        → <a href="contact/"
              data-zh="联系我们"
              data-en="Contact Us">联系我们</a>
       </div>
@@ -58,7 +58,7 @@ hideTitle = true
         透过各类团契和家庭小组，彼此建立，在生活中实践信仰，守望相助。
       </p>
       <div class="church-card-detail">
-        → <a href="/contact/"
+        → <a href="contact/"
              data-zh="欢迎加入我们"
              data-en="Join Us">欢迎加入我们</a>
       </div>
@@ -72,7 +72,7 @@ hideTitle = true
 <section class="church-mid">
   <div class="church-mid-inner">
     <div class="church-photo">
-      <img src="/uploads/2026/02/img-2391_orig-1024x683.jpg" alt="圣道堂教堂建筑">
+      <img src="uploads/2026/02/img-2391_orig-1024x683.jpg" alt="圣道堂教堂建筑">
     </div>
     <div class="church-notice">
       <div class="church-notice-badge"
@@ -128,7 +128,7 @@ hideTitle = true
          data-en="Feel free to contact us for information about service times, faith courses, or how to get involved. We would love to hear from you.">
         欢迎联系我们了解聚会时间、信仰课程或参与方式，我们很乐意为你解答。
       </p>
-      <a href="/contact/" class="church-btn"
+      <a href="contact/" class="church-btn"
          data-zh="联系我们 →"
          data-en="Contact Us →">
         联系我们 →

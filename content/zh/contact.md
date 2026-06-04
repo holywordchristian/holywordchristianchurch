@@ -39,17 +39,17 @@ hideTitle = false
       <article class="resource-card">
         <h3>教会介绍</h3>
         <p>认识我们的信仰宣言、教会生活与聚会安排。</p>
-        <a class="resource-link" href="/intro/">查看介绍</a>
+        <a class="resource-link" href="../intro/">查看介绍</a>
       </article>
       <article class="resource-card">
         <h3>主日聚会</h3>
         <p>查看崇拜、祷告会、主日学与团契安排。</p>
-        <a class="resource-link" href="/meeting/">查看聚会</a>
+        <a class="resource-link" href="../meeting/">查看聚会</a>
       </article>
       <article class="resource-card">
         <h3>每日读经</h3>
         <p>透过每日灵修资源，在神的话语中持续成长。</p>
-        <a class="resource-link" href="/bible/">开始阅读</a>
+        <a class="resource-link" href="../bible/">开始阅读</a>
       </article>
     </div>
   </section>

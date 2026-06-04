@@ -107,13 +107,13 @@ hideTitle = false
     </div>
     <figure class="wp-block-gallery has-nested-images columns-default is-cropped meeting-gallery-original">
       <figure class="is-style-creative-1-a wp-block-image size-large">
-        <img src="/uploads/2026/05/1928f3cfe16d762a92338a5d05c7048b-1024x768.jpg" alt="主日聚会照片" />
+        <img src="../uploads/2026/05/1928f3cfe16d762a92338a5d05c7048b-1024x768.jpg" alt="主日聚会照片" />
       </figure>
       <figure class="is-style-creative-1-b wp-block-image size-large">
-        <img src="/uploads/2026/05/IMG_5542-1-scaled.jpg" alt="团契照片" />
+        <img src="../uploads/2026/05/IMG_5542-1-scaled.jpg" alt="团契照片" />
       </figure>
       <figure class="is-style-creative-1-d wp-block-image size-large">
-        <img src="/uploads/2026/05/64492981f90cd151588c735cd95c8f91-1024x768.jpg" alt="教会活动照片" />
+        <img src="../uploads/2026/05/64492981f90cd151588c735cd95c8f91-1024x768.jpg" alt="教会活动照片" />
       </figure>
     </figure>
   </section>

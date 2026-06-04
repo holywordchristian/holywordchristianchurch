@@ -13,7 +13,7 @@
 
 <section class="home-hero-grid">
   <figure class="home-hero-banner wp-block-image aligncenter size-full is-resized">
-    <img src="/uploads/2026/02/church_banner_shengdaotang.webp"
+    <img src="{{ "uploads/2026/02/church_banner_shengdaotang.webp" | relURL }}"
          alt="蒙特利尔 华人基督教会 圣道堂 聚会"
          class="wp-image-307"/>
   </figure>
@@ -34,7 +34,7 @@
       {{ end }}
     </p>
     <div class="verse-card__actions">
-      <a class="church-btn" href="{{ if eq $lang "zh" }}/bible/{{ else }}/en/bible/{{ end }}">
+      <a class="church-btn" href="{{ "bible/" | relLangURL }}">
         {{ if eq $lang "zh" }}每日读经{{ else }}Daily Devotional{{ end }}
       </a>
     </div>

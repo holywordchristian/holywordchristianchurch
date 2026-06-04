@@ -209,7 +209,7 @@ hideTitle = false
 
   <div class="ch2-vision">
     <div class="ch2-vision-img">
-      <img src="/uploads/2026/02/ChatGPT-Image-Feb-15-2026-11_50_08-AM-1024x683.png" alt="教会信仰" />
+      <img src="../uploads/2026/02/ChatGPT-Image-Feb-15-2026-11_50_08-AM-1024x683.png" alt="教会信仰" />
     </div>
 
     <div class="ch2-vision-text">
@@ -236,7 +236,7 @@ hideTitle = false
 
   <div class="ch2-services">
     <div class="ch2-services-img">
-      <img src="/uploads/2026/02/47f5af58d35e31dc39ade4e5fe957b89-1024x768.jpg" alt="教会聚会" />
+      <img src="../uploads/2026/02/47f5af58d35e31dc39ade4e5fe957b89-1024x768.jpg" alt="教会聚会" />
     </div>
 
     <div class="ch2-services-content">

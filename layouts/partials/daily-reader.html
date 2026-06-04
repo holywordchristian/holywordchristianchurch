@@ -1,7 +1,7 @@
 {{ $isZh := eq .Lang "zh" }}
 {{ $data := index hugo.Data "alpha-bioy" }}
 {{ $entry := cond $isZh $data.zh $data.en }}
-{{ $meetingUrl := cond $isZh "/meeting/" "/en/meeting/" }}
+{{ $meetingUrl := "meeting/" | relLangURL }}
 
 <section class="daily-reader-shell">
   <article class="alpha-reader">

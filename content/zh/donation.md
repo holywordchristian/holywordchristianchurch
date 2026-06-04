@@ -18,7 +18,7 @@ hideTitle = false
       <h2>使用 Interac e-Transfer 奉献</h2>
       <p>感谢你以祷告和奉献支持教会事工。若你计划透过电子转账奉献，请先确认相关资料填写正确，以便教会为你记录和开立奉献收据。</p>
       <figure class="donation-image">
-        <img src="/uploads/2026/02/Interac_e-Transfer_電子轉賬.png" alt="Interac e-Transfer" />
+        <img src="../uploads/2026/02/Interac_e-Transfer_電子轉賬.png" alt="Interac e-Transfer" />
       </figure>
     </div>
 

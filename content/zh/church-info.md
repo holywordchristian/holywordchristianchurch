@@ -236,7 +236,7 @@ audio::-internal-media-controls-download-button {
 <div class="ch-wrap">
 
   <div class="ch-hero">
-    <img src="/uploads/2026/02/church_banner_shengdaotang.webp" alt="Holy Word Church">
+    <img src="../uploads/2026/02/church_banner_shengdaotang.webp" alt="Holy Word Church">
     <div class="ch-hero-overlay">
       <h2>聖道堂 Holy Word Christian Church</h2>
       <p>Brossard · Founded 2026</p>
@@ -284,7 +284,7 @@ audio::-internal-media-controls-download-button {
             <div class="ch-mini-player">
               <div class="ch-mini-title">▶ 讲道</div>
               <audio controls controlsList="nodownload noplaybackrate" preload="metadata">
-                <source src="/uploads/2026/05/5-25-audio_wu.mp4" type="audio/mp4">
+                <source src="../uploads/2026/05/5-25-audio_wu.mp4" type="audio/mp4">
                 您的浏览器不支持音频播放。
               </audio>
             </div>

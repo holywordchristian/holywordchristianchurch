@@ -221,7 +221,7 @@ hideTitle = false
 
   <section class="home-hero-grid intro-hero">
     <figure class="home-hero-banner wp-block-image aligncenter size-full is-resized">
-      <img src="/uploads/2026/02/church_banner_shengdaotang.webp"
+      <img src="../../uploads/2026/02/church_banner_shengdaotang.webp"
            alt="Holy Word Christian Church Sunday Worship"
            class="wp-image-307"/>
     </figure>
@@ -236,14 +236,14 @@ hideTitle = false
         May God's word be your comfort and strength today. We invite you to explore our church life and join us for Sunday worship.
       </p>
       <div class="verse-card__actions">
-        <a class="church-btn" href="/en/bible/">Daily Devotional</a>
+        <a class="church-btn" href="../bible/">Daily Devotional</a>
       </div>
     </aside>
   </section>
 
   <div class="ch2-vision">
     <div class="ch2-vision-img">
-      <img src="/uploads/2026/02/ChatGPT-Image-Feb-15-2026-11_50_08-AM-1024x683.png" alt="教会信仰" />
+      <img src="../../uploads/2026/02/ChatGPT-Image-Feb-15-2026-11_50_08-AM-1024x683.png" alt="教会信仰" />
     </div>
 
     <div class="ch2-vision-text">
@@ -273,7 +273,7 @@ hideTitle = false
 
   <div class="ch2-services">
     <div class="ch2-services-img">
-      <img src="/uploads/2026/02/47f5af58d35e31dc39ade4e5fe957b89-1024x768.jpg" alt="教会聚会" />
+      <img src="../../uploads/2026/02/47f5af58d35e31dc39ade4e5fe957b89-1024x768.jpg" alt="教会聚会" />
     </div>
 
     <div class="ch2-services-content">

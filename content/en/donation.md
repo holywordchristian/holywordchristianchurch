@@ -18,7 +18,7 @@ hideTitle = false
       <h2>Give by Interac e-Transfer</h2>
       <p>Thank you for supporting the church through prayer and giving. Please confirm your details so we can record your gift correctly.</p>
       <figure class="donation-image">
-        <img src="/uploads/2026/02/Interac_e-Transfer_電子轉賬.png" alt="Interac e-Transfer" />
+        <img src="../../uploads/2026/02/Interac_e-Transfer_電子轉賬.png" alt="Interac e-Transfer" />
       </figure>
     </div>
 
