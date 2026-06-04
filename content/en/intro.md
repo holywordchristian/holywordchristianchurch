@@ -204,42 +204,9 @@ hideTitle = false
   }
 }
 
-.intro-hero {
-  margin: 0 0 2.5rem;
-}
-
-.intro-hero .home-hero-banner img {
-  min-height: 320px;
-}
-
-.intro-hero .verse-card {
-  min-height: 100%;
-}
 </style>
 
 <div class="ch2-wrap">
-
-  <section class="home-hero-grid intro-hero">
-    <figure class="home-hero-banner wp-block-image aligncenter size-full is-resized">
-      <img src="../../uploads/2026/02/church_banner_shengdaotang.webp"
-           alt="Holy Word Christian Church Sunday Worship"
-           class="wp-image-307"/>
-    </figure>
-
-    <aside class="verse-card">
-      <p class="verse-card__eyebrow">Verse of the Day</p>
-      <blockquote class="verse-card__quote">
-        Come to me, all you who are weary and burdened, and I will give you rest.
-      </blockquote>
-      <p class="verse-card__ref">Matthew 11:28</p>
-      <p class="verse-card__body">
-        May God's word be your comfort and strength today. We invite you to explore our church life and join us for Sunday worship.
-      </p>
-      <div class="verse-card__actions">
-        <a class="church-btn" href="../bible/">Daily Devotional</a>
-      </div>
-    </aside>
-  </section>
 
   <div class="ch2-vision">
     <div class="ch2-vision-img">
