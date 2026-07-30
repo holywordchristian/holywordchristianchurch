@@ -1,5 +1,6 @@
 # Holy Word Hugo Migration
 
+
 This folder contains a Hugo-ready migration scaffold for the church website.
 
 
