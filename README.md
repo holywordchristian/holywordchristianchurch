@@ -2,6 +2,7 @@
 
 This folder contains a Hugo-ready migration scaffold for the church website.
 
+
 ## What is included
 
 - A bilingual Hugo configuration for Chinese and English
